@@ -1,0 +1,11 @@
+{
+    "clientes": [],
+    "cardapio": [
+      { "id": 1, "nome": "Hambúrguer", "preco": 10, "estoque": 60 },
+      { "id": 2, "nome": "Pizza", "preco": 20, "estoque": 15 },
+      { "id": 3, "nome": "Refrigerante", "preco": 5, "estoque": 30 },
+      { "id": 4, "nome": "CocaCola", "preco": 5, "estoque": 2}
+    ]
+  }
+  
+  

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lanchonete</h1>
+
+    <!-- Cadastro de Cliente -->
+    <section id="cadastro">
+        <h2>Cadastro de Cliente</h2>
+        <input type="text" id="nomeCliente" placeholder="Nome do Cliente">
+        <input type="text" id="endereçoCliente" placeholder="Endereço do Cliente">
+        <button onclick="cadastrarCliente()">Cadastrar</button>
+    </section>
+
+    <!-- Cardápio -->
+    <section id="cardapio">
+        <h2>Menu</h2>
+        <ul id="itensMenu"></ul>
+    </section>
+
+    <!-- Carrinho -->
+    <section id="carrinho">
+        <h2>Carrinho</h2>
+        <ul id="itensCarrinho"></ul>
+        <p id="totalCarrinho">Total: R$ 0,00</p>
+        <button onclick="finalizarPedido()">Finalizar Pedido</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+    

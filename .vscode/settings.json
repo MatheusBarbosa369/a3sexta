@@ -1,0 +1,10 @@
+{
+    "clientes": [
+        { "id": 1, "nome": "João", "endereco": "Rua A, 123" },
+        { "id": 2, "nome": "Maria", "endereco": "Rua B, 456" }
+    ],
+    "cardapio": [
+        { "id": 1, "nome": "Hambúrguer", "preco": 10, "estoque": 60 },
+        { "id": 2, "nome": "Pizza", "preco": 20, "estoque": 15 }
+    ]
+}
